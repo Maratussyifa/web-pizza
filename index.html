@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    .bg-header {
+      background-image: url('hero.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-shadow {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .playball {
+      font-family: 'Playball', cursive;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Section Header-->
+  <div class="w-full h-dvh bg-header">
+    <div class="bg-shadow w-full h-full">
+
+      <!--Navbar-->
+      <div class="w-full flex items-center gap-10 p-10 justify-between">
+
+        <!-- logo section -->
+        <img src="logo.png" alt="logo" class="w-40 h-40 rounded-full">
+        <!-- end logo section -->
+
+        <div class="text-white font-semibold text-2xl flex flex-wrap gap-11">
+          <span>Menu</span>
+          <span>Catering Menu</span>
+          <span>Contact</span>
+          <span>Hiring</span>
+        </div>
+
+        <!--Sosmed-->
+        <div class="flex items gap-5 justify-center">
+          <!-- sosmed -->
+          <div class="flex gap-5 justify-center">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+                <rect width="24" height="24" rx="4" fill="#1877F2" />
+                <path
+                  d="M16.67 8.667h-2.003V7.333c0-.486.323-.6.55-.6h1.427V4.667l-1.963-.007c-2.18 0-2.684 1.635-2.684 2.684v1.323H9.333v2.333h1.664V19.333h3.003v-8.333h2.003l.003-2.333z"
+                  fill="white" />
+              </svg>
+            </span>
+
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+                <rect width="24" height="24" rx="4" fill="#1DA1F2" />
+                <path
+                  d="M19.633 7.997c.013.176.013.353.013.53 0 5.39-4.104 11.61-11.61 11.61-2.307 0-4.453-.676-6.263-1.84.32.038.637.051.97.051 1.92 0 3.688-.652 5.096-1.747-1.797-.038-3.317-1.22-3.843-2.85.252.038.504.064.77.064.37 0 .74-.051 1.085-.14-1.877-.378-3.29-2.036-3.29-4.027v-.051c.553.307 1.19.49 1.867.514a4.07 4.07 0 0 1-1.813-3.39c0-.748.202-1.45.553-2.053a11.63 11.63 0 0 0 8.437 4.28c-.064-.299-.102-.611-.102-.923 0-2.25 1.825-4.075 4.075-4.075 1.173 0 2.234.494 2.978 1.29.923-.176 1.797-.52 2.58-.984-.302.943-.943 1.733-1.78 2.23.82-.102 1.606-.316 2.336-.637-.553.812-1.25 1.523-2.057 2.09z"
+                  fill="white" />
+              </svg>
+            </span>
+
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+                <rect width="24" height="24" rx="4" fill="#E1306C" />
+                <path
+                  d="M12 7.2a4.8 4.8 0 1 0 0 9.6 4.8 4.8 0 0 0 0-9.6zm0 7.92a3.12 3.12 0 1 1 0-6.24 3.12 3.12 0 0 1 0 6.24zm6.24-8.16a1.12 1.12 0 1 1-2.24 0 1.12 1.12 0 0 1 2.24 0zm3.12 1.14c-.07-1.48-.41-2.8-1.5-3.89C18.8 2.17 17.48 1.83 16 1.76 14.52 1.69 9.48 1.69 8 1.76 6.52 1.83 5.2 2.17 4.14 3.23c-1.09 1.09-1.43 2.41-1.5 3.89C2.69 9.48 2.69 14.52 2.76 16c.07 1.48.41 2.8 1.5 3.89 1.06 1.06 2.38 1.4 3.86 1.47 1.48.07 6.52.07 8 .01 1.48-.07 2.8-.41 3.86-1.47 1.09-1.09 1.43-2.41 1.5-3.89.07-1.48.07-6.52 0-8zm-2.8 9.72a3.37 3.37 0 0 1-1.9 1.9c-1.32.52-4.45.4-5.56.4s-4.24.12-5.56-.4a3.37 3.37 0 0 1-1.9-1.9c-.52-1.32-.4-4.45-.4-5.56s-.12-4.24.4-5.56a3.37 3.37 0 0 1 1.9-1.9c1.32-.52 4.45-.4 5.56-.4s4.24-.12 5.56.4a3.37 3.37 0 0 1 1.9 1.9c.52 1.32.4 4.45.4 5.56s.12 4.24-.4 5.56z"
+                  fill="white" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!--end Navbar-->
+
+      <!-- start title-->
+      <div class="w-full flex justify-center">
+        <div class="flex flex-col items-center">
+          <div class="playball text-[80px] text-amber-100 font-bold">PIZZA</div>
+          <div class="text-[70px] text-white font-bold">DONE RIGHT</div>
+        </div>
+        <!--end title-->
+      </div>
+
+      <!-- Lunch Specials Section -->
+      <div class="w-full bg-white px-6 py-20 flex flex-col md:flex-row items-center justify-center gap-10">
+        <!-- Text -->
+        <div class="w-full md:w-1/2 text-center p-5 flex flex-col gap-4 items-center">
+          <h2 class="text-red-600 text-5xl playball">Lunch Specials</h2>
+          <p class="font-semibold text-lg">
+            2 SLICES OF CHEESE PIZZA <br>
+            WITH A DRINK $4.60 <br>
+            <span class="text-sm font-normal">+ taxes (toppings are extra)<br>Please see menu</span>
+          </p>
+          <p class="font-semibold text-lg mt-4">
+            1 SLICE OF CHEESE PIZZA WITH A SMALL <br>
+            HOUSE SALAD & A DRINK $6.50 <br>
+            <span class="text-sm font-normal">+ taxes (Toppings are extra)</span>
+          </p>
+          <p class="mt-4 text-base">
+            AVAILABLE MONDAY–SATURDAY 11AM–3PM <br>
+            DINE IN OR CARRY OUT ONLY
+          </p>
+          <p class="text-red-600 italic font-semibold text-lg">Limited time offer.</p>
+          <button class="bg-red-600 text-white font-bold px-6 py-2 mt-4 hover:bg-red-700 transition-all">ALL
+            SPECIALS</button>
+        </div>
+
+        <!-- Image -->
+        <div class="w-full md:w-1/2 p-5 flex justify-center">
+          <img src="special-lunch.jpeg" alt="Lunch Specials" class="w-80 h-80 rounded-full object-cover" />
+        </div>
+      </div>
+
+      <!-- About Us Section -->
+      <div class="w-full h-screen relative">
+        <img src="about-us.jpeg" alt="About Us" class="w-full h-full object-cover absolute opacity-60" />
+        <div
+          class="absolute w-full h-full bg-black/40 z-10 flex flex-col justify-center items-center text-white px-10 text-center">
+          <h2 class="text-5xl playball mb-5">About us</h2>
+          <p class="max-w-3xl text-lg">
+            New York Pizza was changed to 500 Degrees New York Style Pizzeria in early 2016. The change was made to
+            separate
+            ourselves from other pizzerias in the area. Customer satisfaction is very important to us. We strive to
+            provide
+            our customers with the best food and service possible. One thing you'll come to appreciate is the quality of
+            ingredients we use in our restaurant.
+          </p>
+        </div>
+      </div>
+
+      <!-- Hours Section -->
+      <div class="w-full py-20 bg-white text-center">
+        <h2 class="text-5xl Playball text-red-600 mb-10">Hours</h2>
+        <div class="flex flex-wrap justify-center gap-10 text-gray-800 font-semibold text-lg">
+          <div>
+            <p class="uppercase">Monday - Thursday</p>
+            <p class="text-xl font-bold">11AM - 9PM</p>
+          </div>
+          <div>
+            <p class="uppercase">Friday</p>
+            <p class="text-xl font-bold">11AM - 11PM</p>
+          </div>
+          <div>
+            <p class="uppercase">Saturday</p>
+            <p class="text-xl font-bold">11AM - 10PM</p>
+          </div>
+          <div>
+            <p class="uppercase">Sunday</p>
+            <p class="text-xl font-bold">CLOSED</p>
+          </div>
+        </div>
+      </div>
+      <!--Follow us section-->
+      <div class="w-full h-screen relative">
+        <img src="follow-us.jpeg" alt="Follow Us" class="w-full h-full object-cover absolute opacity-60" />
+        <div
+          class="absolute w-full h-full bg-black/40 z-10 flex flex-col justify-center items-center text-white px-10 text-center">
+          <h2 class="text-7xl playball text-white mb-10">Follow Us</h2>
+          <div class=" Playball flex flex-wrap justify-center gap-10 text-white font-semibold text-lg">
+            #500DegreesPizzaria
+            </p>
+            <div class="flex gap-5">
+              <!--Sosmed-->
+              <div class="flex items gap-5 justify-center">
+                <!-- sosmed -->
+                <div class="flex flex-wrap justify-center gap-10 text-gray-800 font-semibold text-lg">
+
+                </div>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+                    <rect width="24" height="24" rx="4" fill="#1877F2" />
+                    <path
+                      d="M16.67 8.667h-2.003V7.333c0-.486.323-.6.55-.6h1.427V4.667l-1.963-.007c-2.18 0-2.684 1.635-2.684 2.684v1.323H9.333v2.333h1.664V19.333h3.003v-8.333h2.003l.003-2.333z"
+                      fill="white" />
+                  </svg>
+                </span>
+
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+                    <rect width="24" height="24" rx="4" fill="#1DA1F2" />
+                    <path
+                      d="M19.633 7.997c.013.176.013.353.013.53 0 5.39-4.104 11.61-11.61 11.61-2.307 0-4.453-.676-6.263-1.84.32.038.637.051.97.051 1.92 0 3.688-.652 5.096-1.747-1.797-.038-3.317-1.22-3.843-2.85.252.038.504.064.77.064.37 0 .74-.051 1.085-.14-1.877-.378-3.29-2.036-3.29-4.027v-.051c.553.307 1.19.49 1.867.514a4.07 4.07 0 0 1-1.813-3.39c0-.748.202-1.45.553-2.053a11.63 11.63 0 0 0 8.437 4.28c-.064-.299-.102-.611-.102-.923 0-2.25 1.825-4.075 4.075-4.075 1.173 0 2.234.494 2.978 1.29.923-.176 1.797-.52 2.58-.984-.302.943-.943 1.733-1.78 2.23.82-.102 1.606-.316 2.336-.637-.553.812-1.25 1.523-2.057 2.09z"
+                      fill="white" />
+                  </svg>
+                </span>
+
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 24 24">
+                    <rect width="24" height="24" rx="4" fill="#E1306C" />
+                    <path
+                      d="M12 7.2a4.8 4.8 0 1 0 0 9.6 4.8 4.8 0 0 0 0-9.6zm0 7.92a3.12 3.12 0 1 1 0-6.24 3.12 3.12 0 0 1 0 6.24zm6.24-8.16a1.12 1.12 0 1 1-2.24 0 1.12 1.12 0 0 1 2.24 0zm3.12 1.14c-.07-1.48-.41-2.8-1.5-3.89C18.8 2.17 17.48 1.83 16 1.76 14.52 1.69 9.48 1.69 8 1.76 6.52 1.83 5.2 2.17 4.14 3.23c-1.09 1.09-1.43 2.41-1.5 3.89C2.69 9.48 2.69 14.52 2.76 16c.07 1.48.41 2.8 1.5 3.89 1.06 1.06 2.38 1.4 3.86 1.47 1.48.07 6.52.07 8 .01 1.48-.07 2.8-.41 3.86-1.47 1.09-1.09 1.43-2.41 1.5-3.89.07-1.48.07-6.52 0-8zm-2.8 9.72a3.37 3.37 0 0 1-1.9 1.9c-1.32.52-4.45.4-5.56.4s-4.24.12-5.56-.4a3.37 3.37 0 0 1-1.9-1.9c-.52-1.32-.4-4.45-.4-5.56s-.12-4.24.4-5.56a3.37 3.37 0 0 1 1.9-1.9c1.32-.52 4.45-.4 5.56-.4s4.24-.12 5.56.4a3.37 3.37 0 0 1 1.9 1.9c.52 1.32.4 4.45.4 5.56s.12 4.24-.4 5.56z"
+                      fill="white" />
+                  </svg>
+                </span>
+              </div>
+              <!--End follow us section-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Merah section-->
+      <div class="w-full py-10 bg-red-500 text-center">
+        <h2 class="text-1xl  text-white mb-10"> 3948347 SOUTH BLVD CHARLOTTE NC. 463856 </h2>
+        <div class="flex flex-wrap justify-center gap-10 text-white font-semibold text-lg">
+          <div>
+            <p class="uppercase">Home</p>
+          </div>
+
+           <div>
+            <p class="uppercase">Menu</p>
+          </div>
+
+          <div>
+            <p class="uppercase"> Catering Menu</p>
+          </div>
+
+          <div>
+            <p class="uppercase"> Hiring </p>
+          </div>
+          <div class="flex flex wrap justify-center gap-10 text-white font-semibold text-lg"></div>
+
+          </div>
+
+        </div>
+        
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--End merah section-->
+
+</body>
+
+</html>
